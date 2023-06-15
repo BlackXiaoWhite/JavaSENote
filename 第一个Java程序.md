@@ -16,10 +16,7 @@ public class HelloWorld {
 
 **Java程序运行的流程**
 
-```mermaid
-graph LR
-	A[Java程序:编译过程] --> B[class文件:解释过程]
-```
+[![pCuJZxP.jpg](https://s1.ax1x.com/2023/06/15/pCuJZxP.jpg)](https://imgse.com/i/pCuJZxP)
 
 **注意事项：**
 
