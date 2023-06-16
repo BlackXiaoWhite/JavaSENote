@@ -274,7 +274,40 @@ switch语句是多分支选择语句，它**只能进行等值判断**，表达�
         }
     }
 ```
+### 递归算法（递归结构）
 
+**程序调用自身的编程技巧**称为**递归**，递归的特点：
+
+- 一个问题可被分解为若干层简单的子问题
+- 子问题和其上层问题的解决方案一致
+- 外层问题的解决依赖于子问题的解决
+
+递归结构分为两个部分：**递归结束条件、递归体**
+
+**案例：斐波那契数列**
+
+```java
+    /**
+     * 递归案例：斐波那契数列（1，1，2，3....）
+     * 规律：除了前两位是1 其余都是前两位的和
+     */
+    public void recursionTest(){
+        for (int i = 1; i <=10; i++) {
+            System.out.printf("%d \t",recursion(i));
+        }
+    }
+
+    /**
+     *  递归方法：获取第n个元素的值
+     */
+    public Integer recursion(Integer number){
+        if (number==1||number==2){
+            return 1;
+        }else{
+            return recursion(number-1)+recursion(number-2);
+        }
+    }
+```
 ### 补充知识
 
 #### Scanner
