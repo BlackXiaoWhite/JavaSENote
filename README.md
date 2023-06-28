@@ -1,2 +1,2 @@
 # JavaSENote
- 马士兵课程-javaSE随堂笔记
+JavaSE总结，不定时更新
